@@ -1,3 +1,9 @@
 body{
-    background-image : url("image/star.jpeg");
+    background-image : url("image/space.jpg");
+    background-repeat: no-repeat;
+}
+
+#pr1 {
+    background-color: blue;
+    font-size: 100%;
 }
