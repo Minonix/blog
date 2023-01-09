@@ -21,12 +21,12 @@ body{
 
 a:link { /*lien non ouvert*/ /*en rajoutant: .x (x = id du texte) apres a, sela déffinie l'id du texte a changer*/
     text-decoration: none; /*décoration du text*/
-    color: #ffffff;
+    color: #e0dd25;
 }
 
 a:visited { /*lien déja ouvert*/
     text-decoration: none;
-    color: #ffffff;
+    color: #4cd6f8;
 }
 
 a:hover { /*lien avec la souris dessus*/

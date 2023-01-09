@@ -47,7 +47,6 @@ a:active { /*quand on clique sur le lien*/
 /*permet d'aficher la barre*/
 ul{
     list-style-type: none;
-    margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #524e4ee1;
@@ -55,7 +54,7 @@ ul{
     position: sticky;
     top: 0;
     letter-spacing: 2.5px;
-    font-size: 20px;
+    font-size: 2%;
     margin: 0 15% 0 15%;
 }
 
