@@ -5,11 +5,10 @@ body{
 
 #pr1 {
     color: rgb(255, 255, 255);
-    font-size: 200%;
+    font-size: 150%;
     border-color: rgba(123, 243, 123, 0.849);
     background-color: #000000cb;
     text-align: center;
-    font-size: xx-large;
     margin: 0.5% 20% 0 20%;
 }
 
