@@ -1,76 +1,8 @@
-body{
-    background-image : url("../image/space.jpg");
-    background-size: cover;
-}
-
 #pr1 {
     color: rgb(255, 255, 255);
-    font-size: 150%;
+    font-size: 100%;
     border-color: rgba(123, 243, 123, 0.849);
     background-color: #000000cb;
     text-align: center;
     margin: 0.5% 20% 0 20%;
-}
-
-.dotted {border-style: dotted;}
-.dashed {border-style: dashed;}
-.solid {border-style: solid;}
-.double {border-style: double;}
-.groove {border-style: groove;}
-.ridge {border-style: ridge;}
-.inset {border-style: inset;}
-.outset {border-style: outset;}
-.none {border-style: none;}
-.hidden {border-style: hidden;}
-.mix {border-style: dotted dashed solid double;}
-
-a:link { /*lien non ouvert*/ /*en rajoutant: .x (x = id du texte) apres a, sela déffinie l'id du texte a changer*/
-    text-decoration: none; /*décoration du text*/
-    color: #ffffff;
-}
-
-a:visited { /*lien déja ouvert*/
-    text-decoration: none;
-    color: #ffffff;
-}
-
-a:hover { /*lien avec la souris dessus*/
-    text-decoration: underline; /*décoration du text, dans l'exemple: souligner le texte*/
-    color: #00c4ff;
-}
-
-a:active { /*quand on clique sur le lien*/
-    text-decoration: underline;
-    color: #00ffd9;
-}
-
-/*permet d'aficher la barre*/
-ul{
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-    background-color: #524e4ee1;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-    letter-spacing: 2.5px;
-    font-size: 2%;
-    margin: 0 15% 0 15%;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: #002aff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: transparent;
-    background-color: #3f3c3c;
 }
