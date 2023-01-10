@@ -76,7 +76,7 @@ li a:hover {
     background-color: #3f3c3c;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 600px) { /* pour tout les téléphone/tablette */
     /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
     section {
         -webkit-flex-direction: column;
@@ -87,10 +87,10 @@ li a:hover {
         font-size: 100%;
     }
     a{
-        font-size: 10%;
+        font-size: 70%;
     }
     ul{
-        margin: 0 2.5% 0 2.5%;
+        margin: 0 2% 0 2%;
     }
     #pr1{
         margin: 1% 5% 0 5%;
