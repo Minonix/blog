@@ -87,6 +87,12 @@ li a:hover {
         font-size: 100%;
     }
     a{
-        font-size: 90%;
+        font-size: 10%;
+    }
+    ul{
+        margin: 0 2.5% 0 2.5%;
+    }
+    #pr1{
+        margin: 1% 5% 0 5%;
     }
 }
