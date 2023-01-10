@@ -1,8 +1,32 @@
 #pr1 {
     color: rgb(255, 255, 255);
-    font-size: 100%;
+    font-size: 100% !important;
     border-color: rgba(123, 243, 123, 0.849);
     background-color: #000000cb;
     text-align: center;
-    margin: 0.5% 20% 0 20%;
+    margin: 10% 20% 0 20%;
+}
+
+.img-droit{
+    float: left;
+}
+
+.text-gauche{
+    margin: 4% 0 0 40em ;
+}
+
+.img-gauche{
+    float: right;
+}
+
+.text-droit{
+    float: left;
+}
+
+#prog{
+    text-align: center;
+}
+
+.all-text{
+    display: table;
 }

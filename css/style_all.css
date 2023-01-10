@@ -5,6 +5,15 @@ body{
     font-size: 150%;
 }
 
+.text{
+    color: white;
+    font-size: 100% !important;
+    border-color: rgba(123, 243, 123, 0.849);
+    background-color: #000000cb;
+    display: table;
+    margin: 50% 0 0 0;
+}
+
 #info{
     float: right;
 }
