@@ -78,6 +78,9 @@ li a:hover {
     section {
         -webkit-flex-direction: column;
         flex-direction: column;
-        font-size: 1000%;
+        
+    }
+    body{
+        font-size: 10%;
     }
 }
