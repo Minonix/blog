@@ -1,6 +1,7 @@
 body{
     background-image : url("../image/pillier-de-la-creation.png");
     background-size: cover;
+    background-repeat: no-repeat;
     font-size: 150%;
 }
 
@@ -70,4 +71,13 @@ li a {
 li a:hover {
     background-color: transparent;
     background-color: #3f3c3c;
+}
+
+@media (max-width: 600px) {
+    /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+    section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        font-size: 1000%;
+    }
 }
