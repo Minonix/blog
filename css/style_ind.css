@@ -12,7 +12,7 @@
 }
 
 .text-gauche{
-    margin: 4% 0 0 40em ;
+    margin: 1% 0 0 58.4% ;
 }
 
 .img-gauche{
@@ -29,4 +29,9 @@
 
 .all-text{
     display: table;
+}
+
+#img0001{
+    height: auto;
+    width: auto;
 }
