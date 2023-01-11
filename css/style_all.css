@@ -105,4 +105,8 @@ li a:hover {
     #pr1{
         margin: 10px 15px 0 15px;
     }
+    #img001{
+        height: 50%;
+        width: 50%;
+    }
 }
