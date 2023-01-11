@@ -1,7 +1,6 @@
 body{
     background-image : url("../image/pillier-de-la-creation.png");
     background-size: cover;
-    background-repeat: no-repeat;
     font-size: 150%;
 }
 
@@ -93,10 +92,10 @@ li a:hover {
         
     }
     body{
-        font-size: 100%;
+        font-size: 70%;
     }
     a{
-        font-size: 70%;
+        font-size: 100%;
     }
     ul{
         font-size: 80%;
@@ -106,10 +105,14 @@ li a:hover {
         margin: 25% 15px 0 15px;
     }
     #img001{
-        height: 25%;
-        width: 25%;
+        height: 50%;
+        width: 50%;
+    }
+    .all-text{
+        margin: 0 0 0 0;
+        font-size: 90% !important;
     }
     .text-gauche{
-        margin: 0 0 0 0;
+        margin: 1% 0 0 50% ;
     }
 }

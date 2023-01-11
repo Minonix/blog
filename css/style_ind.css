@@ -12,7 +12,7 @@
 }
 
 .text-gauche{
-    margin: 1% 0 0 58.4% ;
+    margin: 0 0 0 58.4% ;
 }
 
 .img-gauche{
@@ -34,4 +34,9 @@
 #img0001{
     height: auto;
     width: auto;
+}
+
+.s-title{
+    color: cyan;
+    text-align: center;
 }
