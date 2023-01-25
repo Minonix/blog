@@ -1,0 +1,33 @@
+.img-droit{
+    float: left;
+}
+
+.text-gauche{
+    margin: 0 0 0 58.4% ;
+}
+
+.img-gauche{
+    float: right;
+}
+
+.text-droit{
+    float: left;
+}
+
+#prog{
+    text-align: center;
+}
+
+.all-text{
+    display: table;
+}
+
+#img0001{
+    height: auto;
+    width: auto;
+}
+
+.s-title{
+    color: cyan;
+    text-align: center;
+}
