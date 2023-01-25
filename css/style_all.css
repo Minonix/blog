@@ -62,7 +62,7 @@ a:active { /*quand on clique sur le lien*/
 }
 
 /*permet d'aficher la barre*/
-ul{
+.ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -76,19 +76,19 @@ ul{
     margin: 0 15% 0 15%;
 }
 
-li {
+.li {
     float: left;
+	
 }
 
-li a {
+.li a {
     display: block;
-    color: #002aff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover {
+.li a:hover {
     background-color: transparent;
     background-color: #3f3c3c;
 }
@@ -108,14 +108,14 @@ li a:hover {
     }
     ul{
         font-size: 80%;
-        margin: 0 0 0 0;
+        margin: 0 0 0 0 !important; 
     }
     #pr1{
         margin: 25% 5px 0 5px;
     }
     #img001{
-        height: 50%;
-        width: 50%;
+        height: 25%;
+        width: 25%;
     }
     .all-text{
         margin: 0 0 0 0;
