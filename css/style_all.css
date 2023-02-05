@@ -2,6 +2,7 @@ body{
     background-image : url("../image/pillier-de-la-creation.png");
     background-size: cover;
     font-size: 150%;
+    background-attachment: fixed;
 }
 
 .text{
