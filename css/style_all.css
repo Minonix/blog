@@ -65,26 +65,22 @@ a:active { /*quand on clique sur le lien*/
 /*permet d'aficher la barre*/
 .ul{
     list-style-type: none;
-    margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #524e4ee1;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    letter-spacing: 2.5px;
+    letter-spacing: 2px;
     font-size: 20px;
     margin: 0 15% 0 15%;
+    max-height: 200px;
 }
 
 .li {
     float: left;
-	
-}
-
-.li a {
+	text-align: center;
     display: block;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -102,14 +98,18 @@ a:active { /*quand on clique sur le lien*/
         
     }
     body{
-        font-size: 70%;
+        font-size: 100%;
     }
     a{
         font-size: 100%;
     }
-    ul{
-        font-size: 50%;
-        margin: 0 0 0 0 !important; 
+    .ul{
+        max-height: 45px!important;
+        font-size: 100% !important;
+        margin: 1px 1px !important;
+    }
+    .li{
+        padding: 5px 5px;
     }
     #pr1{
         margin: 25% 5px 0 5px;
