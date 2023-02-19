@@ -73,8 +73,9 @@ a:active { /*quand on clique sur le lien*/
     top: 0;
     letter-spacing: 2px;
     font-size: 20px;
-    margin: 0 15% 0 15%;
+    margin: auto;
     max-height: 200px;
+    width: 70%;
 }
 
 .li {
@@ -95,7 +96,6 @@ a:active { /*quand on clique sur le lien*/
     section {
         -webkit-flex-direction: column;
         flex-direction: column;
-        
     }
     body{
         font-size: 100%;
@@ -106,7 +106,7 @@ a:active { /*quand on clique sur le lien*/
     .ul{
         max-height: 45px!important;
         font-size: 100% !important;
-        margin: 1px 1px !important;
+        margin: 1px !important;
     }
     .li{
         padding: 5px 5px;
@@ -127,5 +127,8 @@ a:active { /*quand on clique sur le lien*/
     }
     .tablef{
         margin: 10% 5px 0 5px;
+    }
+    main{
+        margin: auto 1px !important;
     }
 }

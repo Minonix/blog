@@ -6,13 +6,15 @@ body{
 
 .article-fol {
     margin: 100px 25% 50px 25%;
-    background-color: rgba(37, 36, 36, 0.733);
+    background-color: rgba(87, 85, 85, 0.658);
     color: white;
     text-align: center;
+    box-shadow: 6px 6px 0px rgba(48, 47, 47, 0.637);
 }
 
 .img{
     text-align: center !important;
+    border-top: 500px yellow ;
 }
 
 img {
@@ -30,7 +32,8 @@ img {
     font-size: 80%;
 }
 
-@media (max-width: 600px) { 
+
+@media (max-width: 600px) {
     .article-fol{
         margin: 100px 5% 50px 5%;
     }

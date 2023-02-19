@@ -1,3 +1,13 @@
 {
-    "window.autoDetectColorScheme": false
+    "window.autoDetectColorScheme": false,
+    "cSpell.enableFiletypes": [
+        "log",
+        "raw",
+        "vb",
+        "xml",
+        "xsl"
+    ],
+    "cSpell.words": [
+        "Propos"
+    ]
 }
