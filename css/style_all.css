@@ -107,6 +107,7 @@ a:active { /*quand on clique sur le lien*/
         max-height: 45px!important;
         font-size: 100% !important;
         margin: 1px !important;
+        width: 100% !important;
     }
     .li{
         padding: 5px 5px;
@@ -127,8 +128,5 @@ a:active { /*quand on clique sur le lien*/
     }
     .tablef{
         margin: 10% 5px 0 5px;
-    }
-    main{
-        margin: auto 1px !important;
     }
 }
