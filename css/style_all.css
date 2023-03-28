@@ -113,7 +113,13 @@ a:active { /*quand on clique sur le lien*/
         padding: 5px 5px;
     }
     #pr1{
-        margin: 25% 5px 0 5px;
+        margin: 25% 0px 0 0px;
+    }
+    #projl{
+        bottom: 0 10px 0 0;
+    }
+    #tabl_recap{
+        margin: 0 !important;
     }
     #img001{
         height: 25%;
