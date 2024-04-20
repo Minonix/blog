@@ -1,53 +1,108 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
-
 <head>
-    <meta charset="UTF-8" />
-    <title>blog</title>
-    <link rel="stylesheet" href="css/style_ind.css">
-    <link rel="stylesheet" href="css/style_all.css">
-    <link rel="icon" type="image/x-icon" href="#"> <!-- permet de d'éffinir l'icone la page  -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clément Martini</title>
+    <link rel="icon" href="images/profils.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
 </head>
-
 <body>
-    <ul class="outset ul">
-        <li class="li"><a href="index.html">Mon Blog</a></li>
-        <li id="info" class="li"><a href="page/info.html">à-propos</a></li>
-        <li class="li"><a href="page/portefolios.html">Porte-folios</a></li>
-    </ul>
+    <div class="noir"></div>
+    <nav data-aos="slide-right" id="nav">
+        <div class="profils">
+            <img src="images/profils.png" alt="">
+            <p><strong>Clement Martini</strong></p>
+            <p class="text">Lycee Boissy D'Anglas</p>
+        </div>
+        <ul>
+            <li><a href="#acceuil">Acceuil</a></li>
+            <li><a href="#presentation">Presentation</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="reseaux">
+            <a href="https://www.youtube.com/@minonix2" target="_blank"><img src="images/youtube.png" alt=""></a>
+            <!-- <a href="https://www.instagram.com/minonix2/"><img src="images/linkedin.png" alt=""></a> -->
+            <a href="https://www.instagram.com/minonix2/" target="_blank"><img src="images/instagram.png" alt=""></a>
+        </div>
+    </nav>
+
+    <!-- contient les 2 premier partie -->
     <main>
-        <div class="pr1 ridge">Bonjour,<br> je m'appelle Clément Martini, j'ai 15ans au moment ou j'écris ce site
-            web.<br><br>
-            Vous pourrez retrouver ici <strong>mon porte-folios</strong>, et <strong>mon CV</strong>. Dans <a
-                href="page/info.html">à-propos</a> vous pourrez y retrouver les informations de l'avencement de ce projet
-            ainsi que l'accès au fichier(CSS, HTML, image ...)
-            <br>sur la plateforme GitHub, avec d'autre projet
-        </div>
-
-        <div class="text">
-            <div class="all-text solid">
-                <div>
-                    <img src="image/space2.jpg" id="img001" class="img-droit" alt="image test">
-                    <div class="text-gauche s-title">Programmation</div>
-                    <div id="prog-desc" class="text-gauche">je suis passionner de jeux vidéo depuis mon enfance, et quoi de
-                        mieux que de créée sont propre jeux vidéo pour ne pas avoir de limite à ceux que les autre
-                        déveloper font?<br>
-                        Je mis suis donc intérésser à mes 12ans, j'ai chercher puis je suis tombé sur une formation pour
-                        débutant sur la plateforme Unity, avec l'accord de mes parent j'ai pus participer à 2 semains de
-                        stage qui m'on permis de découvrire plusieur facette de comment créé un jeux, la création de code en
-                        C#, le designe ...<br>
-                        a mes 14ans j'ai reçus pour cadeaux d'annivèrsaire un livre pour apprendre le python, que j'ai
-                        appris à mon ritme. puis viens le lycée, en SNT nous avons commencer l'année avec le dévellopement
-                        d'un site web, j'y ai pus découvrir le HTLM et le CSS, j'ai rapidement fait usage de l'internet pour
-                        découvrire d'autre possibiliter et dépasser toute ma classe,
-                        nous avons ensuite commencer le pythons, avec les connaissences grace au livre j'ai pus être capable
-                        de distancer toute ma classe sans difficulter.<br>Dans le même temps j'ai découvert les cours d'Open
-                        Classrooms ce qui ma permis de m'améliorer dans le HTML et CSS.</div>
-                </div>
+        <article class="acceuil" id="acceuil" >
+            <div class="card" data-aos="zoom-in" data-aos-delay="100">
+                <img src="images/profils.png" alt="">
+                <p class="nom"><strong>Clement Martini</strong></p>
+                <p class="desc">
+                    je suis un devellopper debutant, mais avec une soife de savoir.
+                </p>
             </div>
-        </div>
+            <div class="fleche">
+                <img src="images/fleche-sim-haut.svg" alt="fleche pour remonter en haut de la page ">
+            </div>
+        </article>
+        <article class="presentation" id="presentation" >
+            <div class="l_desc" data-aos="zoom-in" data-aos-delay="100">Bonjour, Je suis Clément Martini, un passionné de développement informatique âgé de 16 ans. Mon parcours comprend des activités variées : je pratique le tennis depuis 5 ans et l'escalade depuis 3 ans, et je suis entraîneur de tennis depuis 2 ans. En parallèle, j'ai eu l'opportunité de participer à la piscine Discovery de l'école 42, une expérience enrichissante qui a consolidé mon intérêt pour la programmation. Actuellement en première avec spécialité en mathématiques, SES et NSI, je suis également en préparation pour le BAFA. Au fil du temps, j'ai réalisé plusieurs projets personnels dans le domaine du développement, et je suis déterminé à poursuivre ma passion pour devenir développeur professionnel.</div>
+            <div class="competance" data-aos="zoom-in" data-aos-delay="100">
+                <h1>Competance :</h1>
+                <ul>
+                    <li>Html : <strong>Bonne maitrise</strong></li>
+                    <li>CSS et SCSS : <strong>Bonne maitrise</strong></li>
+                    <li>Javascript : <strong>Bonne maitrise</strong></li>
+                    <li>Python : <strong>Bonne maitrise</strong></li>
+                    <li>Flutter : <strong>maitrise basique</strong></li>
+                </ul>
+            </div>
+            <div class="experience" data-aos="zoom-in" data-aos-delay="100">
+                <h1>Experience</h1>
+                <ul>
+                    <li>une semaine dans <strong>la piscine Discovery de l'ecole42 Angouleme</strong></li>
+                    <li><i>(toujours en cours)</i> 2 ans en tant que entraîneur de tennis</li>
+                    <li><i>(en preparation)</i> 2 semaine au BAFA</li>
+                    <li>Different projet personnels disponible dans <a href="https://github.com/minonix">github</a></li>
+                    <li><i>(2018)</i> 2 semaine en visoconference avec <strong>d'ancien devellopper d'Ubisoft</strong> pour la creation de jeux video sur Unity</li>
+                </ul>
+            </div>
+            <div class="diplome" data-aos="zoom-in" data-aos-delay="100">
+                <h1>Diplome</h1>
+                <ul>
+                    <li><i>(en cours) Piscine Discovery de l'ecole42 Angouleme</i></li>
+                    <li><i>(en cours) Bac general, en specialiter NSI, Maths et SES</i></li>
+                    <li>Diplome de secourisme Lv2</li>
+                    <li><i>(en preparation)</i> BAFA</li>
+                    <li>Diplome de plonge niv1</li>
+                </ul>
+            </div>
+        </article>
     </main>
-</body>
 
+    <!-- bas de page avec les contacts -->
+    <footer id="contact">
+        <div class="contact">
+            par <strong>Clement Martini</strong>
+        </div>
+        <a href="mailto:clementmartini07@hotmail.com">
+            <div class="btn-contact">
+                Me contacter par mail
+            </div>
+        </a>
+        <a onclick="copyToClipboard('+33787164997')" href="#contact">
+            <div class="btn-contact">
+                Copier le numero de telephonne
+            </div>
+        </a>
+        <div class="copyright">&copy; 2024 Clément Martini, Tous droits réservés.</div>
+        
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+    <!-- mon code js -->
+    <script src="index.js"></script>
+</body>
 </html>
