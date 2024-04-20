@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+link[rel="icon"] {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.noir{
+    background-image: url(images/bcg-acc.jpg);
+    background-size: cover;
+    background-position: -90%;
+    height: 100vh;
+    width: 10vw;
+    position: absolute;
+    top: 0;
+    left: 0 ;
+}
+
+nav{
+    white-space: wrap; /* Empêchez le texte de passer à la ligne */
+    overflow: hidden; /* Masquez le texte qui dépasse du conteneur */
+    text-overflow: ellipsis; /* Ajoutez trois petits points à la fin du texte tronqué */
+
+    width: 10vw;
+    height: 100vh;
+
+    padding: 0 5px;
+
+    box-shadow: 1px 0 3.5px black;
+
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #76ABAE;
+
+    .profils{
+        max-width: 10vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            max-width: 10vw;
+            max-height: 10vw;
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+
+        p {
+            padding-top: 10px;
+            text-align: center;
+        }
+
+        .text{
+            font-size: 10px;
+        }
+    }
+
+    ul{
+        li{
+            padding: 2.5vh 0;
+            font-size: 1.5vw;
+
+            ::before {
+                content: ""; /* Contenu vide */
+                position: absolute; /* Position absolue par rapport à l'élément parent */
+                margin-top: -2vh;
+                margin-left: -2vw;
+                height: 8vh;
+                width: 20vw;
+            }
+
+            a {
+                transition: all 300ms linear;
+                -webkit-transition: all 300ms linear;
+                -moz-transition: all 300ms linear;
+                -ms-transition: all 300ms linear;
+                -o-transition: all 300ms linear;
+                color: black;
+                text-shadow: 1px 1px 2px rgb(238, 204, 80);
+                text-decoration: none;
+            }
+
+            a:hover{
+                text-decoration: underline;
+                text-shadow: 2px 2px 1px rgb(249, 193, 51);
+            }
+        }
+    }
+
+    .reseaux {
+        a{
+            transition: all 600ms;
+            -webkit-transition: all 600ms;
+            -moz-transition: all 600ms;
+            -ms-transition: all 600ms;
+            -o-transition: all 600ms;
+
+            margin: 0 0.5vw;
+        }
+        img{
+
+            height: 20px;
+            width: 20px;
+            transition: all 600ms;
+            -webkit-transition: all 600ms;
+            -moz-transition: all 600ms;
+            -ms-transition: all 600ms;
+            -o-transition: all 600ms;
+}
+
+        a:hover{
+            margin: 0;
+            img{
+                height: 40px;
+                width: 40px;
+            }
+        }
+    }
+}
+
+main{
+    white-space: wrap; /* Empêchez le texte de passer à la ligne */
+    overflow: hidden; /* Masquez le texte qui dépasse du conteneur */
+    text-overflow: ellipsis; /* Ajoutez trois petits points à la fin du texte tronqué */
+
+    margin-left: 10vw;
+
+    article{
+        min-height: 100vh;
+        width: 100%;
+    }
+
+    .acceuil{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        justify-content: center;
+
+        background-image: url(images/bcg-acc.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+
+        .card{
+            white-space: wrap; /* Empêchez le texte de passer à la ligne */
+            overflow: hidden; /* Masquez le texte qui dépasse du conteneur */
+            text-overflow: ellipsis; /* Ajoutez trois petits points à la fin du texte tronqué */
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            padding: 5vh 1vw;
+            background-color: #EEEEEE;
+            color: #222831;
+
+            border: 1px solid black;
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+
+            box-shadow: 2px 4px 5px black;
+            
+            img{
+                max-width: 50vw;
+                max-height: 50vw;
+                height: 50%;
+                width: 50%;
+    
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+            }
+    
+            .nom {
+                font-size: 5vh;
+            }
+    
+            .desc {
+                margin-top: 10%;
+                max-width: 20vw;
+                max-height: 10vh;
+
+                font-size: 2.5vh;
+                text-align: center;
+            }
+    
+        }
+        .fleche{
+            position: absolute;
+
+            bottom: 0;
+        }
+    }
+
+    .presentation{
+        display: grid;
+        row-gap: 10px;
+        column-gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        justify-items: center;
+        align-content: space-between;
+
+        background-color: #31363F;
+
+        h1{
+            text-decoration: underline;
+            margin-bottom: 20px;
+        }
+
+        div {
+            text-align: center;
+            white-space: wrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: #222831;
+
+            border: 1px black;
+
+            box-shadow: 2px 2px 5px black;
+
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+
+            margin-top: 5vh;
+            padding: 0 1vw;
+            background-color: #76ABAE;
+        }
+
+
+        .l_desc{
+            grid-column: 1 / span 2;
+            grid-row: 1;
+
+            width: 80%;
+            max-height: 20vh;
+
+
+        }
+
+        .competance{
+            grid-column: 1;
+            grid-row: 2;
+            ul{
+                li::before{
+                    content: "- ";
+                }
+            }
+        }
+
+        .experience{
+            grid-column: 2;
+            grid-row: 2;
+
+            ul{
+                li::before{
+                    content: "- ";
+                }
+            }
+            margin-right: 5vw;
+        }
+
+        .diplome{
+            grid-column: 1 / span 2;
+            grid-row: 3;
+
+            margin-bottom: 20px;
+
+            ul{
+                li::before{
+                    content: "- ";
+                }
+            }
+        }
+    }
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: 10vw;
+
+    background-color: #EEEEEE;
+
+    .btn-contact{
+        background-color: #76ABAE;
+        color:#222831;
+        font-size: 2vh;
+
+        padding: 10px;
+        margin: 10px;
+
+        border-radius: 20px ;
+        -webkit-border-radius: 20px ;
+        -moz-border-radius: 20px ;
+        -ms-border-radius: 20px ;
+        -o-border-radius: 20px ;
+
+        transition: all 300ms ;
+        -webkit-transition: all 300ms ;
+        -moz-transition: all 300ms ;
+        -ms-transition: all 300ms ;
+        -o-transition: all 300ms ;
+}
+
+    a{
+        text-decoration: none;
+    }
+
+    a:hover .btn-contact{
+        box-shadow: 2px 2px 5px black;
+    }
+
+    .copyright {
+        margin-left: 85%;
+        font-size: 2vh;
+    }
+}
